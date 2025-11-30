@@ -7,7 +7,7 @@ Display PNG images in the Lean 4 infoview with interactive resize controls.
 Add to your `lakefile.lean`:
 
 ```lean
-require «lean4-infoview-png» from git "https://github.com/alok/lean4-infoview-png" @ "main"
+require Png from git "https://github.com/alok/lean4-infoview-png" @ "main"
 ```
 
 ## Usage
