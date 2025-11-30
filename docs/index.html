@@ -32,8 +32,13 @@
     </p>
 
     <h2>Install</h2>
-    <p>Add to your <code>lakefile.lean</code>:</p>
+    <p><strong>lakefile.lean:</strong></p>
     <pre><code>require Png from git "https://github.com/alok/lean4-infoview-png" @ "main"</code></pre>
+    <p><strong>lakefile.toml:</strong></p>
+    <pre><code>[[require]]
+name = "Png"
+git = "https://github.com/alok/lean4-infoview-png"
+rev = "main"</code></pre>
     <p>Then run <code>lake update</code>.</p>
 
     <h2>Usage</h2>
