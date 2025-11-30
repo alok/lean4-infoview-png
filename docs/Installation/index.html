@@ -8,9 +8,9 @@
     window.location.replace(`${proto}//${hostName}${path}/${srch}${hsh}`);
   }
 })()</script>
-    <base href="./"><meta charset="utf-8">
+    <base href="./../"><meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>lean4-infoview-png</title><link rel="stylesheet" href="book.css">
+    <title>Installation</title><link rel="stylesheet" href="book.css">
     <link rel="stylesheet" href="verso-vars.css">
     <script>
       const __versoSiteRoot = document.baseURI;</script>
@@ -42,41 +42,35 @@
             <div class="split-toc book">
               <div class="title">
                 <label for="--verso-manual-toc-----bookRoot" class="toggle-split-toc"><input type="checkbox" class="toggle-split-toc" id="--verso-manual-toc-----bookRoot" checked="checked"></label><span class="">Table of Contents</span></div>
-              <table><tr class="numbered"><td class="num">1.</td><td><a href="Installation/#lean4-infoview-png--Installation">Installation</a></td></tr><tr class="numbered"><td class="num">2.</td><td><a href="Usage/#lean4-infoview-png--Usage">Usage</a></td></tr><tr class="numbered"><td class="num">3.</td><td><a href="Features/#lean4-infoview-png--Features">Features</a></td></tr><tr class="numbered"><td class="num">4.</td><td><a href="License/#lean4-infoview-png--License">License</a></td></tr></table></div>
+              <table><tr class="current numbered"><td class="num">1.</td><td><a href="Installation/#lean4-infoview-png--Installation">Installation</a></td></tr><tr class="numbered"><td class="num">2.</td><td><a href="Usage/#lean4-infoview-png--Usage">Usage</a></td></tr><tr class="numbered"><td class="num">3.</td><td><a href="Features/#lean4-infoview-png--Features">Features</a></td></tr><tr class="numbered"><td class="num">4.</td><td><a href="License/#lean4-infoview-png--License">License</a></td></tr></table></div>
+            <div class="split-toc">
+              <div class="title">
+                <span class="no-toggle"></span><span class="number">1.</span> <span class="current"><a href="Installation/#lean4-infoview-png--Installation">Installation</a></span></div>
+              </div>
             </div>
           </div>
         <div class="last"></div>
         </nav>
       <main><div class="content-wrapper">
           <nav class="prev-next-buttons">
-            <div></div>
-            <a class="local-button active" href="Installation/#lean4-infoview-png--Installation" rel="next" title="1. Installation"><span class="where">1. Installation</span><span class="arrow">→</span></a></nav>
+            <a class="local-button active" href="#" rel="prev" title=" lean4-infoview-png"><span class="arrow">←</span><span class="where"> lean4-infoview-png</span></a><a class="local-button active" href="Usage/#lean4-infoview-png--Usage" rel="next" title="2. Usage"><span class="where">2. Usage</span><span class="arrow">→</span></a></nav>
           <section>
-            <div class="titlepage">
-              <h1>
-                 lean4-infoview-png</h1>
-              <div class="authors"></div>
-              <p>
-                Display PNG images in the Lean 4 VS Code infoview with interactive resize controls.</p>
-              </div>
-            <section>
-              <h2>
-                Contents</h2>
-              <ol class="section-toc">
-                <li>
-                  <a href="Installation/#lean4-infoview-png--Installation"><span class="number">1.</span> Installation</a></li>
-                <li>
-                  <a href="Usage/#lean4-infoview-png--Usage"><span class="number">2.</span> Usage</a></li>
-                <li>
-                  <a href="Features/#lean4-infoview-png--Features"><span class="number">3.</span> Features</a></li>
-                <li>
-                  <a href="License/#lean4-infoview-png--License"><span class="number">4.</span> License</a></li>
-                </ol>
-              </section>
+            <h1>
+              1. Installation</h1>
+            <p>
+              <strong>lakefile.lean:</strong></p>
+            <pre>require Png from git "https://github.com/alok/lean4-infoview-png" @ "main"
+</pre><p>
+              <strong>lakefile.toml:</strong></p>
+            <pre>[[require]]
+name = "Png"
+git = "https://github.com/alok/lean4-infoview-png"
+rev = "main"
+</pre><p>
+              Then run <code>lake update</code>.</p>
             </section>
           <nav class="prev-next-buttons">
-            <div></div>
-            <a class="local-button active" href="Installation/#lean4-infoview-png--Installation" rel="next" title="1. Installation"><span class="where">1. Installation</span><span class="arrow">→</span></a></nav>
+            <a class="local-button active" href="#" rel="prev" title=" lean4-infoview-png"><span class="arrow">←</span><span class="where"> lean4-infoview-png</span></a><a class="local-button active" href="Usage/#lean4-infoview-png--Usage" rel="next" title="2. Usage"><span class="where">2. Usage</span><span class="arrow">→</span></a></nav>
           </div>
         </main></div>
     </body>

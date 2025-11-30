@@ -1,0 +1,1 @@
+window.docContents[59].resolve({"/License/#lean4-infoview-png--License":{"contents":"Apache 2.0\n\n\n","context":"lean4-infoview-png","header":"4. License","id":"/License/#lean4-infoview-png--License"}});

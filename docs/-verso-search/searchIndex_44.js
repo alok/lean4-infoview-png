@@ -1,0 +1,1 @@
+window.docContents[44].resolve({"/#lean4-infoview-png":{"contents":"Display PNG images in the Lean 4 VS Code infoview with interactive resize controls.\n\n\n\n\n\n\n\n\n\n","context":"","header":"lean4-infoview-png","id":"/#lean4-infoview-png"}});

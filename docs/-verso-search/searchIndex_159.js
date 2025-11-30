@@ -1,0 +1,1 @@
+window.docContents[159].resolve({"/Usage/#lean4-infoview-png--Usage":{"contents":"import InfoviewPng\n\n#png \"/path/to/image.png\"       -- default 400px width\n#png \"/path/to/image.png\" 300   -- explicit width\n\n\nDrag the slider to resize. Changes written back to source.\n\n","context":"lean4-infoview-png","header":"2. Usage","id":"/Usage/#lean4-infoview-png--Usage"}});
