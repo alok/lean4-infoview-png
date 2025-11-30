@@ -1,0 +1,7 @@
+/.lake
+/lake-packages
+/.cache
+*.olean
+*.ilean
+*.trace
+*.hash
